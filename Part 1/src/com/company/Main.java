@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private final String[] instructionSet = {"AND", "ADD", "ANDI", "ADDI", "CMP", "LD", "ST", "JUMP", "JE", "JA", "JB", "JBE", "JAE"};
+    private final String[] instructionSet = {"AND", "ADD", "ANDI", "ADDI", "LD", "ST", "CMP" ,"JUMP", "JE", "JA", "JB", "JBE", "JAE"};
     private final int immBit = 7 ;
     private final int addressBit = 10 ;
 
