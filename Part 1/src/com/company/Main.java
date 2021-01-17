@@ -96,7 +96,6 @@ public class Main {
                 sb.append("101");
                 sb.append(addressToBinary(parseReg[0]));
             }
-
         }
 
         System.out.println(parseOpcode[0]);
